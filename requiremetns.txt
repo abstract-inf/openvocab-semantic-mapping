@@ -1,0 +1,10 @@
+torch
+torchvision
+ultralytics
+transformers
+pyyaml
+pandas
+numpy
+opencv-python
+Pillow
+tqdm
