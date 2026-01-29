@@ -16,9 +16,9 @@ This project implements a real-time semantic mapping and object detection system
 
 1. **Clone the repository:**
 ```bash
+
 git clone https://github.com/abstract-inf/openvocab-semantic-mapping.git
 cd openvocab-semantic-mapping
-
 ```
 
 
@@ -55,10 +55,9 @@ pip install torch torchvision ultralytics transformers pyyaml pandas numpy openc
 **File:** `comparison_script.py`
 
 * **What it does:** Benchmarks **YOLOv10n**, **RT-DETR**, **YOLO11n**, and **YOLO-Worldv2** on COCO val.
-* **How to run:** ```bash
+* **How to run:**
+```bash
 python comparison_script.py
-```
-
 ```
 
 
@@ -69,12 +68,10 @@ python comparison_script.py
 **File:** `data_visualization.py`
 
 * **What it does:** Processes CSV results to create accuracy and efficiency plots.
-* **How to run:** ```bash
+* **How to run:**
+```bash
 python data_visualization.py
 ```
-
-```
-
 
 * **Output:** Saves charts to the `./paper_plots/` folder.
 
@@ -86,10 +83,9 @@ python data_visualization.py
 * `realtime_yolo.py`: Runs standard YOLO11n detection.
 
 
-* **How to run:** ```bash
+* **How to run:**
+```bash
 python openvocab_realtime.py  # or realtime_yolo.py
-```
-
 ```
 
 
